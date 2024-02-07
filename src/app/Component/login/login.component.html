@@ -1,0 +1,12 @@
+<div class="mainLogin">
+  <div class="leftLogin"></div>
+  <div class="rightLogin">
+  <img src="../../../assets/img/logo.png">
+  <form (ngSubmit)="login()" #loginForm="ngForm">
+    <app-custom-input #customInputUsername></app-custom-input>
+    <app-custom-input #customInputPassword></app-custom-input> 
+    <app-button-component #btnButton></app-button-component>
+  </form>
+  </div>
+  <p-toast></p-toast>
+</div>

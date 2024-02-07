@@ -1,0 +1,4 @@
+<div class="form-group inputDiv">
+    <label [for]="inputName">{{inputName}}</label>
+    <input #itemInput class="inputUsername" [type]="inputType" [id]="inputName" [name]="inputName" [value]="inputValue" (change)="changeInputItem(itemInput)" required>
+</div>
